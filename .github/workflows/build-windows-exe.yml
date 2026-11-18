@@ -1,0 +1,32 @@
+name: Build Windows Desktop (.exe)
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-windows-exe:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install web & backend dependencies
+        run: npm ci
+      - name: Prepare production frontend & standalone backend
+        run: npm run desktop:prepare
+      - name: Install Electron desktop builder
+        working-directory: desktop-win
+        run: npm install
+      - name: Build Windows NSIS Setup & Portable .exe
+        working-directory: desktop-win
+        run: npm run dist:win
+      - name: Upload Windows .exe Installers
+        uses: actions/upload-artifact@v4
+        with:
+          name: Seven-Sunday-Ethiopia-ERP-Windows-Exe
+          path: dist-electron/*.exe

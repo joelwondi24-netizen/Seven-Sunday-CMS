@@ -1,0 +1,1004 @@
+{
+  "state": {
+    "companySettings": {
+      "id": "company_settings",
+      "companyName": "Seven Sunday Manufacturing & Trading PLC",
+      "brandName": "Seven Sunday Ethiopia",
+      "slogan": "The Home of quality product",
+      "secondarySlogan": "Together for a Stronger and Better Tomorrow",
+      "address": "Addis Ababa, Ethiopia (Enter Verified Street Address in Admin)",
+      "city": "Addis Ababa",
+      "country": "Ethiopia",
+      "phone": "Enter Verified Telephone",
+      "secondaryPhone": "",
+      "email": "info@sevensundayethiopia.com",
+      "website": "www.sevensundayethiopia.com",
+      "tinNumber": "ENTER-VERIFIED-TIN",
+      "registrationNumber": "ENTER-VERIFIED-REG",
+      "vatNumber": "ENTER-VERIFIED-VAT",
+      "defaultCurrency": "ETB",
+      "supportedCurrencies": [
+        "ETB",
+        "USD",
+        "EUR",
+        "CNY"
+      ],
+      "vatRatePercent": 15,
+      "defaultLanguage": "en",
+      "calendarSystem": "dual",
+      "primaryColor": "#082B59",
+      "secondaryColor": "#087CEB",
+      "customLogoDataUrl": "",
+      "companyStampDataUrl": "",
+      "authorizedSignatureDataUrl": "",
+      "letterheadFooter": "Seven Sunday Manufacturing & Trading PLC · Addis Ababa, Ethiopia · The Home of quality product",
+      "retentionDays": 3650,
+      "twoFactorRequiredForAdmins": false,
+      "smtp": {
+        "host": "",
+        "port": 587,
+        "secure": false,
+        "senderEmail": "",
+        "senderName": "Seven Sunday Ethiopia ERP",
+        "username": "",
+        "configured": false
+      },
+      "version": 1,
+      "updatedAt": "2026-11-17T13:30:06.838Z"
+    },
+    "payrollConfig": {
+      "id": "payroll_config",
+      "effectiveDate": "2026-01-01",
+      "employeePensionPercent": 7,
+      "employerPensionPercent": 11,
+      "overtimeWeekdayMultiplier": 1.5,
+      "overtimeWeekendMultiplier": 2,
+      "overtimeHolidayMultiplier": 2.5,
+      "workingHoursPerMonth": 208,
+      "brackets": [
+        {
+          "min": 0,
+          "max": 600,
+          "ratePercent": 0,
+          "deduction": 0
+        },
+        {
+          "min": 601,
+          "max": 1650,
+          "ratePercent": 10,
+          "deduction": 60
+        },
+        {
+          "min": 1651,
+          "max": 3200,
+          "ratePercent": 15,
+          "deduction": 142.5
+        },
+        {
+          "min": 3201,
+          "max": 5250,
+          "ratePercent": 20,
+          "deduction": 302.5
+        },
+        {
+          "min": 5251,
+          "max": 7800,
+          "ratePercent": 25,
+          "deduction": 565
+        },
+        {
+          "min": 7801,
+          "max": 10900,
+          "ratePercent": 30,
+          "deduction": 955
+        },
+        {
+          "min": 10901,
+          "max": null,
+          "ratePercent": 35,
+          "deduction": 1500
+        }
+      ],
+      "version": 1
+    },
+    "roles": [
+      {
+        "id": "role_super_admin",
+        "name": "Super Administrator",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "admin",
+          "hr",
+          "secretary",
+          "attendance",
+          "leave",
+          "payroll",
+          "inventory",
+          "materials",
+          "purchasing",
+          "sales",
+          "finance",
+          "assets",
+          "fleet",
+          "documents",
+          "chat",
+          "approvals",
+          "audit",
+          "sync",
+          "reports"
+        ],
+        "canApprove": true,
+        "canViewSalaryBank": true,
+        "canAdjustStock": true,
+        "canManageUsers": true,
+        "canExportData": true,
+        "canAccessOfflinePayroll": true
+      },
+      {
+        "id": "role_owner",
+        "name": "Company Owner",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "admin",
+          "hr",
+          "secretary",
+          "attendance",
+          "leave",
+          "payroll",
+          "inventory",
+          "materials",
+          "purchasing",
+          "sales",
+          "finance",
+          "assets",
+          "fleet",
+          "documents",
+          "chat",
+          "approvals",
+          "audit",
+          "sync",
+          "reports"
+        ],
+        "canApprove": true,
+        "canViewSalaryBank": true,
+        "canAdjustStock": true,
+        "canManageUsers": true,
+        "canExportData": true,
+        "canAccessOfflinePayroll": true
+      },
+      {
+        "id": "role_gm",
+        "name": "General Manager",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "admin",
+          "hr",
+          "secretary",
+          "attendance",
+          "leave",
+          "payroll",
+          "inventory",
+          "materials",
+          "purchasing",
+          "sales",
+          "finance",
+          "assets",
+          "fleet",
+          "documents",
+          "chat",
+          "approvals",
+          "audit",
+          "sync",
+          "reports"
+        ],
+        "canApprove": true,
+        "canViewSalaryBank": true,
+        "canAdjustStock": true,
+        "canManageUsers": true,
+        "canExportData": true,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_dept_mgr",
+        "name": "Department Manager",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "hr",
+          "attendance",
+          "leave",
+          "materials",
+          "documents",
+          "chat",
+          "approvals",
+          "sync",
+          "reports"
+        ],
+        "canApprove": true,
+        "canViewSalaryBank": false,
+        "canAdjustStock": false,
+        "canManageUsers": false,
+        "canExportData": true,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_hr_mgr",
+        "name": "Human Resource Manager",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "hr",
+          "secretary",
+          "attendance",
+          "leave",
+          "payroll",
+          "assets",
+          "documents",
+          "chat",
+          "approvals",
+          "sync",
+          "reports"
+        ],
+        "canApprove": true,
+        "canViewSalaryBank": true,
+        "canAdjustStock": false,
+        "canManageUsers": false,
+        "canExportData": true,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_finance_mgr",
+        "name": "Finance Manager",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "payroll",
+          "purchasing",
+          "sales",
+          "finance",
+          "documents",
+          "chat",
+          "approvals",
+          "audit",
+          "sync",
+          "reports"
+        ],
+        "canApprove": true,
+        "canViewSalaryBank": true,
+        "canAdjustStock": false,
+        "canManageUsers": false,
+        "canExportData": true,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_accountant",
+        "name": "Accountant",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "payroll",
+          "purchasing",
+          "sales",
+          "finance",
+          "documents",
+          "chat",
+          "sync",
+          "reports"
+        ],
+        "canApprove": false,
+        "canViewSalaryBank": true,
+        "canAdjustStock": false,
+        "canManageUsers": false,
+        "canExportData": true,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_inventory_mgr",
+        "name": "Inventory Manager",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "inventory",
+          "materials",
+          "purchasing",
+          "documents",
+          "chat",
+          "approvals",
+          "sync",
+          "reports"
+        ],
+        "canApprove": true,
+        "canViewSalaryBank": false,
+        "canAdjustStock": true,
+        "canManageUsers": false,
+        "canExportData": true,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_warehouse_mgr",
+        "name": "Warehouse Manager",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "inventory",
+          "materials",
+          "fleet",
+          "documents",
+          "chat",
+          "sync",
+          "reports"
+        ],
+        "canApprove": false,
+        "canViewSalaryBank": false,
+        "canAdjustStock": true,
+        "canManageUsers": false,
+        "canExportData": true,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_procurement",
+        "name": "Procurement Officer",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "inventory",
+          "materials",
+          "purchasing",
+          "documents",
+          "chat",
+          "sync",
+          "reports"
+        ],
+        "canApprove": false,
+        "canViewSalaryBank": false,
+        "canAdjustStock": false,
+        "canManageUsers": false,
+        "canExportData": true,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_sales_mgr",
+        "name": "Sales Manager",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "inventory",
+          "sales",
+          "documents",
+          "chat",
+          "approvals",
+          "sync",
+          "reports"
+        ],
+        "canApprove": true,
+        "canViewSalaryBank": false,
+        "canAdjustStock": false,
+        "canManageUsers": false,
+        "canExportData": true,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_security",
+        "name": "Security Supervisor",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "attendance",
+          "assets",
+          "fleet",
+          "materials",
+          "chat",
+          "sync"
+        ],
+        "canApprove": false,
+        "canViewSalaryBank": false,
+        "canAdjustStock": false,
+        "canManageUsers": false,
+        "canExportData": false,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_secretary",
+        "name": "Secretary",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "secretary",
+          "documents",
+          "hr",
+          "attendance",
+          "leave",
+          "chat",
+          "sync",
+          "reports"
+        ],
+        "canApprove": false,
+        "canViewSalaryBank": false,
+        "canAdjustStock": false,
+        "canManageUsers": false,
+        "canExportData": true,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_employee",
+        "name": "Employee",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "attendance",
+          "leave",
+          "documents",
+          "chat",
+          "sync"
+        ],
+        "canApprove": false,
+        "canViewSalaryBank": false,
+        "canAdjustStock": false,
+        "canManageUsers": false,
+        "canExportData": false,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_auditor",
+        "name": "Auditor",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "finance",
+          "inventory",
+          "materials",
+          "payroll",
+          "audit",
+          "reports",
+          "sync"
+        ],
+        "canApprove": false,
+        "canViewSalaryBank": true,
+        "canAdjustStock": false,
+        "canManageUsers": false,
+        "canExportData": true,
+        "canAccessOfflinePayroll": false
+      },
+      {
+        "id": "role_viewer",
+        "name": "Viewer",
+        "isSystem": true,
+        "modules": [
+          "dashboard",
+          "reports"
+        ],
+        "canApprove": false,
+        "canViewSalaryBank": false,
+        "canAdjustStock": false,
+        "canManageUsers": false,
+        "canExportData": false,
+        "canAccessOfflinePayroll": false
+      }
+    ],
+    "branches": [
+      {
+        "id": "br_hq",
+        "name": "Addis Ababa Head Office",
+        "city": "Addis Ababa",
+        "address": "Bole Sub-City, Addis Ababa, Ethiopia",
+        "phone": "+251 11 000 0000",
+        "managerName": "General Manager"
+      },
+      {
+        "id": "br_plant",
+        "name": "Manufacturing Plant & Central Warehouse",
+        "city": "Dukem / Gelan",
+        "address": "Industrial Zone, Oromia, Ethiopia",
+        "phone": "+251 11 000 0001",
+        "managerName": "Warehouse Manager"
+      }
+    ],
+    "departments": [
+      {
+        "id": "dept_exec",
+        "name": "Executive Management",
+        "code": "EXEC",
+        "headName": "General Manager",
+        "budgetEtb": 1200000
+      },
+      {
+        "id": "dept_sec",
+        "name": "Secretary Department",
+        "code": "SEC",
+        "headName": "Executive Secretary",
+        "budgetEtb": 350000
+      },
+      {
+        "id": "dept_hr",
+        "name": "Human Resources",
+        "code": "HR",
+        "headName": "HR Manager",
+        "budgetEtb": 600000
+      },
+      {
+        "id": "dept_fin",
+        "name": "Finance & Accounting",
+        "code": "FIN",
+        "headName": "Finance Manager",
+        "budgetEtb": 850000
+      },
+      {
+        "id": "dept_prod",
+        "name": "Manufacturing & Production",
+        "code": "PROD",
+        "headName": "Plant Manager",
+        "budgetEtb": 3500000
+      },
+      {
+        "id": "dept_inv",
+        "name": "Inventory & Warehouse",
+        "code": "INV",
+        "headName": "Inventory Manager",
+        "budgetEtb": 900000
+      },
+      {
+        "id": "dept_proc",
+        "name": "Procurement & Supply",
+        "code": "PROC",
+        "headName": "Procurement Officer",
+        "budgetEtb": 2200000
+      },
+      {
+        "id": "dept_sales",
+        "name": "Sales & Marketing",
+        "code": "SLS",
+        "headName": "Sales Manager",
+        "budgetEtb": 1100000
+      },
+      {
+        "id": "dept_secu",
+        "name": "Security & Fleet Operations",
+        "code": "LOG",
+        "headName": "Security Supervisor",
+        "budgetEtb": 500000
+      }
+    ],
+    "users": [
+      {
+        "id": "usr_super_admin",
+        "username": "admin",
+        "email": "admin@sevensundayethiopia.com",
+        "fullName": "Super Administrator",
+        "roleId": "role_super_admin",
+        "roleName": "Super Administrator",
+        "department": "Executive Management",
+        "jobTitle": "System Super Administrator",
+        "status": "active",
+        "passwordHash": "e07ac5358e3da72bd417d44f365bb3a9:3634197309d536d0b44a3b8f0990a426e73cee09c596ef062855bb58023ad597",
+        "twoFactorEnabled": false,
+        "offlineEnabled": true,
+        "createdAt": "2026-11-17T13:30:06.838Z",
+        "version": 1,
+        "lastLoginAt": "2026-11-17T13:30:09.703Z"
+      },
+      {
+        "id": "usr_hr",
+        "username": "hr.manager",
+        "email": "hr@sevensundayethiopia.com",
+        "fullName": "Tigist Bekele",
+        "roleId": "role_hr_mgr",
+        "roleName": "Human Resource Manager",
+        "department": "Human Resources",
+        "jobTitle": "Human Resource Manager",
+        "status": "active",
+        "passwordHash": "e07ac5358e3da72bd417d44f365bb3a9:3634197309d536d0b44a3b8f0990a426e73cee09c596ef062855bb58023ad597",
+        "twoFactorEnabled": false,
+        "offlineEnabled": true,
+        "createdAt": "2026-11-17T13:30:06.838Z",
+        "version": 1
+      },
+      {
+        "id": "usr_finance",
+        "username": "finance.mgr",
+        "email": "finance@sevensundayethiopia.com",
+        "fullName": "Dawit Tadesse",
+        "roleId": "role_finance_mgr",
+        "roleName": "Finance Manager",
+        "department": "Finance & Accounting",
+        "jobTitle": "Finance Manager",
+        "status": "active",
+        "passwordHash": "e07ac5358e3da72bd417d44f365bb3a9:3634197309d536d0b44a3b8f0990a426e73cee09c596ef062855bb58023ad597",
+        "twoFactorEnabled": false,
+        "offlineEnabled": true,
+        "createdAt": "2026-11-17T13:30:06.838Z",
+        "version": 1
+      },
+      {
+        "id": "usr_secretary",
+        "username": "secretary",
+        "email": "secretary@sevensundayethiopia.com",
+        "fullName": "Selamawit Girma",
+        "roleId": "role_secretary",
+        "roleName": "Secretary",
+        "department": "Secretary Department",
+        "jobTitle": "Executive Secretary",
+        "status": "active",
+        "passwordHash": "e07ac5358e3da72bd417d44f365bb3a9:3634197309d536d0b44a3b8f0990a426e73cee09c596ef062855bb58023ad597",
+        "twoFactorEnabled": false,
+        "offlineEnabled": true,
+        "createdAt": "2026-11-17T13:30:06.838Z",
+        "version": 1
+      },
+      {
+        "id": "usr_warehouse",
+        "username": "warehouse",
+        "email": "warehouse@sevensundayethiopia.com",
+        "fullName": "Abebe Kebede",
+        "roleId": "role_warehouse_mgr",
+        "roleName": "Warehouse Manager",
+        "department": "Inventory & Warehouse",
+        "jobTitle": "Warehouse Manager",
+        "status": "active",
+        "passwordHash": "e07ac5358e3da72bd417d44f365bb3a9:3634197309d536d0b44a3b8f0990a426e73cee09c596ef062855bb58023ad597",
+        "twoFactorEnabled": false,
+        "offlineEnabled": true,
+        "createdAt": "2026-11-17T13:30:06.838Z",
+        "version": 1
+      },
+      {
+        "id": "usr_employee",
+        "username": "employee",
+        "email": "staff@sevensundayethiopia.com",
+        "fullName": "Beka Tesfaye",
+        "roleId": "role_employee",
+        "roleName": "Employee",
+        "department": "Manufacturing & Production",
+        "jobTitle": "Production Line Technician",
+        "status": "active",
+        "passwordHash": "e07ac5358e3da72bd417d44f365bb3a9:3634197309d536d0b44a3b8f0990a426e73cee09c596ef062855bb58023ad597",
+        "twoFactorEnabled": false,
+        "offlineEnabled": true,
+        "createdAt": "2026-11-17T13:30:06.838Z",
+        "version": 1,
+        "lastLoginAt": "2026-11-17T13:30:09.772Z"
+      }
+    ],
+    "loginHistory": [
+      {
+        "id": "lh_1794922209814",
+        "userId": "usr_employee",
+        "username": "employee",
+        "fullName": "Beka Tesfaye",
+        "roleName": "Employee",
+        "deviceLabel": "Web Browser",
+        "mode": "online",
+        "timestamp": "2026-11-17T13:30:09.772Z",
+        "status": "success"
+      },
+      {
+        "id": "lh_1794922209759",
+        "userId": "usr_super_admin",
+        "username": "admin",
+        "fullName": "Super Administrator",
+        "roleName": "Super Administrator",
+        "deviceLabel": "Web Browser",
+        "mode": "online",
+        "timestamp": "2026-11-17T13:30:09.703Z",
+        "status": "success"
+      }
+    ],
+    "activeDevices": [
+      {
+        "id": "dev_1794922209814",
+        "userId": "usr_employee",
+        "username": "employee",
+        "deviceName": "Web Browser",
+        "platform": "Browser / PWA",
+        "lastSeenAt": "2026-11-17T13:30:09.772Z",
+        "online": true
+      },
+      {
+        "id": "dev_1794922209759",
+        "userId": "usr_super_admin",
+        "username": "admin",
+        "deviceName": "Web Browser",
+        "platform": "Browser / PWA",
+        "lastSeenAt": "2026-11-17T13:30:09.703Z",
+        "online": true
+      }
+    ],
+    "employees": [],
+    "employeeEvents": [],
+    "attendance": [],
+    "attendanceCorrections": [],
+    "leaves": [],
+    "payrollRuns": [],
+    "bonuses": [],
+    "warehouses": [
+      {
+        "id": "wh_main",
+        "name": "Central Manufacturing Warehouse",
+        "code": "WH-01",
+        "location": "Dukem Industrial Zone",
+        "managerName": "Abebe Kebede",
+        "capacityNote": "Primary raw materials & finished goods facility"
+      },
+      {
+        "id": "wh_addis",
+        "name": "Addis Ababa Distribution Depot",
+        "code": "WH-02",
+        "location": "Bole Sub-City, Addis Ababa",
+        "managerName": "Inventory Manager",
+        "capacityNote": "Regional dispatch and sales stock"
+      }
+    ],
+    "products": [],
+    "stockTransactions": [],
+    "materialRequests": [],
+    "suppliers": [],
+    "purchaseOrders": [],
+    "customers": [],
+    "salesInvoices": [],
+    "financeAccounts": [
+      {
+        "id": "acc_1010",
+        "code": "1010",
+        "name": "Cash on Hand (Petty Cash)",
+        "type": "Asset",
+        "currency": "ETB",
+        "balance": 0,
+        "isBankOrCash": true
+      },
+      {
+        "id": "acc_1020",
+        "code": "1020",
+        "name": "Commercial Bank of Ethiopia - Operating",
+        "type": "Asset",
+        "currency": "ETB",
+        "balance": 0,
+        "isBankOrCash": true
+      },
+      {
+        "id": "acc_1200",
+        "code": "1200",
+        "name": "Accounts Receivable",
+        "type": "Asset",
+        "currency": "ETB",
+        "balance": 0,
+        "isBankOrCash": false
+      },
+      {
+        "id": "acc_1300",
+        "code": "1300",
+        "name": "Inventory Asset",
+        "type": "Asset",
+        "currency": "ETB",
+        "balance": 0,
+        "isBankOrCash": false
+      },
+      {
+        "id": "acc_2010",
+        "code": "2010",
+        "name": "Accounts Payable",
+        "type": "Liability",
+        "currency": "ETB",
+        "balance": 0,
+        "isBankOrCash": false
+      },
+      {
+        "id": "acc_2100",
+        "code": "2100",
+        "name": "VAT & Payroll Tax Payable",
+        "type": "Liability",
+        "currency": "ETB",
+        "balance": 0,
+        "isBankOrCash": false
+      },
+      {
+        "id": "acc_3000",
+        "code": "3000",
+        "name": "Owner Equity & Retained Earnings",
+        "type": "Equity",
+        "currency": "ETB",
+        "balance": 0,
+        "isBankOrCash": false
+      },
+      {
+        "id": "acc_4000",
+        "code": "4000",
+        "name": "Manufacturing & Trading Revenue",
+        "type": "Revenue",
+        "currency": "ETB",
+        "balance": 0,
+        "isBankOrCash": false
+      },
+      {
+        "id": "acc_5000",
+        "code": "5000",
+        "name": "Cost of Goods Sold",
+        "type": "Expense",
+        "currency": "ETB",
+        "balance": 0,
+        "isBankOrCash": false
+      },
+      {
+        "id": "acc_5100",
+        "code": "5100",
+        "name": "Salaries & Payroll Expense",
+        "type": "Expense",
+        "currency": "ETB",
+        "balance": 0,
+        "isBankOrCash": false
+      },
+      {
+        "id": "acc_5200",
+        "code": "5200",
+        "name": "Fleet, Fuel & Maintenance Expense",
+        "type": "Expense",
+        "currency": "ETB",
+        "balance": 0,
+        "isBankOrCash": false
+      },
+      {
+        "id": "acc_5300",
+        "code": "5300",
+        "name": "Administrative & Office Expense",
+        "type": "Expense",
+        "currency": "ETB",
+        "balance": 0,
+        "isBankOrCash": false
+      }
+    ],
+    "journalEntries": [],
+    "paymentVouchers": [],
+    "budgets": [
+      {
+        "id": "bud_dept_exec",
+        "department": "Executive Management",
+        "fiscalYear": "2026",
+        "allocatedAmount": 1200000,
+        "spentAmount": 0,
+        "notes": "Annual departmental operating budget"
+      },
+      {
+        "id": "bud_dept_sec",
+        "department": "Secretary Department",
+        "fiscalYear": "2026",
+        "allocatedAmount": 350000,
+        "spentAmount": 0,
+        "notes": "Annual departmental operating budget"
+      },
+      {
+        "id": "bud_dept_hr",
+        "department": "Human Resources",
+        "fiscalYear": "2026",
+        "allocatedAmount": 600000,
+        "spentAmount": 0,
+        "notes": "Annual departmental operating budget"
+      },
+      {
+        "id": "bud_dept_fin",
+        "department": "Finance & Accounting",
+        "fiscalYear": "2026",
+        "allocatedAmount": 850000,
+        "spentAmount": 0,
+        "notes": "Annual departmental operating budget"
+      },
+      {
+        "id": "bud_dept_prod",
+        "department": "Manufacturing & Production",
+        "fiscalYear": "2026",
+        "allocatedAmount": 3500000,
+        "spentAmount": 0,
+        "notes": "Annual departmental operating budget"
+      },
+      {
+        "id": "bud_dept_inv",
+        "department": "Inventory & Warehouse",
+        "fiscalYear": "2026",
+        "allocatedAmount": 900000,
+        "spentAmount": 0,
+        "notes": "Annual departmental operating budget"
+      },
+      {
+        "id": "bud_dept_proc",
+        "department": "Procurement & Supply",
+        "fiscalYear": "2026",
+        "allocatedAmount": 2200000,
+        "spentAmount": 0,
+        "notes": "Annual departmental operating budget"
+      },
+      {
+        "id": "bud_dept_sales",
+        "department": "Sales & Marketing",
+        "fiscalYear": "2026",
+        "allocatedAmount": 1100000,
+        "spentAmount": 0,
+        "notes": "Annual departmental operating budget"
+      },
+      {
+        "id": "bud_dept_secu",
+        "department": "Security & Fleet Operations",
+        "fiscalYear": "2026",
+        "allocatedAmount": 500000,
+        "spentAmount": 0,
+        "notes": "Annual departmental operating budget"
+      }
+    ],
+    "uniformAssets": [],
+    "vehicles": [],
+    "vehicleLogs": [],
+    "secretaryEntries": [],
+    "officialDocuments": [],
+    "chatChannels": [
+      {
+        "id": "ch_announcements",
+        "name": "Company Announcements",
+        "type": "announcement",
+        "participants": []
+      },
+      {
+        "id": "ch_general",
+        "name": "Seven Sunday General",
+        "type": "group",
+        "participants": []
+      },
+      {
+        "id": "ch_secretary",
+        "name": "Secretary & Official Desk",
+        "type": "department",
+        "participants": []
+      },
+      {
+        "id": "ch_warehouse",
+        "name": "Warehouse & Logistics",
+        "type": "department",
+        "participants": []
+      },
+      {
+        "id": "ch_finance",
+        "name": "Finance & Procurement",
+        "type": "department",
+        "participants": []
+      }
+    ],
+    "chatMessages": [
+      {
+        "id": "msg_welcome",
+        "channelId": "ch_announcements",
+        "senderId": "usr_super_admin",
+        "senderName": "Super Administrator",
+        "senderRole": "Super Administrator",
+        "content": "Welcome to the Seven Sunday Ethiopia Unified Corporate Management Platform. Real-time sync and offline mode are active.",
+        "readBy": [
+          "usr_super_admin"
+        ],
+        "createdAt": "2026-11-17T13:30:06.838Z"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "notif_init",
+        "title": "Platform Initialized",
+        "message": "Seven Sunday Ethiopia ERP is ready. Configure verified company details in Company Administration or load optional sample data to explore.",
+        "module": "admin",
+        "severity": "info",
+        "readBy": [],
+        "createdAt": "2026-11-17T13:30:06.838Z"
+      }
+    ],
+    "auditLogs": [
+      {
+        "id": "aud_init",
+        "userId": "system",
+        "username": "system",
+        "roleName": "System",
+        "module": "System",
+        "action": "Platform Database Initialized",
+        "entityId": "erp_db",
+        "deviceInfo": "Server Core",
+        "timestamp": "2026-11-17T13:30:06.838Z"
+      }
+    ],
+    "lastUpdatedAt": "2026-11-17T13:30:06.838Z"
+  },
+  "processedTxIds": []
+}

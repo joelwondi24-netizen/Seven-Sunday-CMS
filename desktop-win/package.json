@@ -1,0 +1,23 @@
+{
+  "name": "seven-sunday-ethiopia-erp-desktop",
+  "version": "1.0.0",
+  "description": "Seven Sunday Ethiopia ERP — Windows Desktop & Offline Local Storage Application",
+  "main": "main.cjs",
+  "author": "Seven Sunday Manufacturing & Trading PLC",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "electron-builder --win nsis portable --x64",
+    "dist:nsis": "electron-builder --win nsis --x64",
+    "dist:portable": "electron-builder --win portable --x64"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "ws": "^8.23.0"
+  },
+  "devDependencies": {
+    "electron": "^35.1.5",
+    "electron-builder": "^26.0.12"
+  }
+}

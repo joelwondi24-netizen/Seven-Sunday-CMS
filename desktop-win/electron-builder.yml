@@ -1,0 +1,41 @@
+appId: com.sevensundayethiopia.erp
+productName: Seven Sunday Ethiopia ERP
+copyright: Copyright © 2026 Seven Sunday Manufacturing & Trading PLC
+directories:
+  output: ../dist-electron
+  buildResources: build
+asar: true
+asarUnpack:
+  - server-bundle.mjs
+  - dist/**/*
+files:
+  - main.cjs
+  - preload.cjs
+  - server-bundle.mjs
+  - dist/**/*
+  - build/icon.ico
+  - package.json
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+  icon: build/icon.ico
+  artifactName: Seven-Sunday-Ethiopia-ERP-Setup-${version}-${arch}.${ext}
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: always
+  createStartMenuShortcut: true
+  shortcutName: Seven Sunday Ethiopia ERP
+  uninstallDisplayName: Seven Sunday Ethiopia ERP
+  installerIcon: build/icon.ico
+  uninstallerIcon: build/icon.ico
+  installerHeaderIcon: build/icon.ico
+  include: build/installer.nsh
+portable:
+  artifactName: Seven-Sunday-Ethiopia-ERP-Portable-${version}-${arch}.exe

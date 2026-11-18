@@ -1,0 +1,1197 @@
+# MASTER PROMPT: SEVEN SUNDAY ETHIOPIA UNIFIED CORPORATE MANAGEMENT PLATFORM
+
+## PROJECT IDENTITY
+
+Build a complete, enterprise-grade online and offline corporate management platform for:
+
+**Company:** Seven Sunday Manufacturing & Trading PLC  
+**Brand:** Seven Sunday Ethiopia  
+**Slogan:** The Home of quality product  
+**Secondary slogan:** Together for a Stronger and Better Tomorrow
+
+The application must combine all existing Seven Sunday Ethiopia software projects into one centralized, fully functional corporate ERP and management system.
+
+This must be a real business application, not a static website, real dashboard, or UI prototype.
+
+The platform must support:
+- Online operation and
+- Offline operation without internet.
+- Windows desktop installation.
+- Android installation.
+- iPhone installation through PWA where supported.
+- Tablet and laptop access.
+- Multiple employees using individual accounts.
+- local database and synchronized information.
+
+---
+
+# PART 1: COMPANY BRANDING AND DESIGN
+
+Use the original Seven Sunday company logo supplied with the project.
+
+Never redesign, distort, replace, or change the original logo.
+
+### Brand colours
+
+- Navy blue: #082B59
+- Royal blue: #087CEB
+- White: #FFFFFF
+- Light blue: #EAF4FF
+- Dark text: #15243A
+- Light background: #F5F8FC
+- Primary brand color	#293858
+- Secondary brand color	#1178B9
+- Main background	#FFFFFF
+- Alternate background	#F3F5F8
+- Body text	#293858
+- Primary button	#1178B9
+- Button hover	#0D6096
+- Footer background	#293858
+
+### Design requirements
+
+Create a premium corporate interface inspired by modern enterprise ERP software.
+
+Include:
+- Professional company login page.
+- Company logo on every main application screen.
+- Responsive sidebar navigation.
+- Top navigation bar.
+- Company profile and user profile.
+- Notification bell.
+- Global search.
+- Quick action buttons.
+- Dashboard statistics.
+- Professional tables and charts.
+- Modern forms and modals.
+- Dark mode and light mode.
+- Responsive desktop, tablet and mobile layouts.
+
+Use a consistent design across all modules.
+
+Allow the administrator to change company branding without modifying source code.
+
+---
+
+# PART 2: MASTER ADMINISTRATION AND CONTROL CENTER
+
+Create one central administration panel.
+
+The Super Administrator must control the entire application.
+
+### Company settings
+
+Allow editing:
+- Company name.
+- Original company logo.
+- Company slogan.
+- Company address.
+- Telephone numbers.
+- Email addresses.
+- Website.
+- TIN and registration information.
+- Company stamp and signature.
+- Company letterhead.
+- Company branches.
+- Department names.
+- Currency and tax settings.
+- Date and time settings.
+- Language settings.
+- demo data or sample remove
+### User management
+
+Allow administrators to:
+- Create employee accounts.
+- Edit user accounts.
+- Suspend accounts.
+- Delete accounts subject to audit and retention rules.
+- Reset passwords.
+- Assign departments.
+- Assign job titles.
+- Assign roles and permissions.
+- Monitor user activities.
+- Review login history.
+- Manage active devices.
+
+Create role-based access control.
+
+Default roles:
+1. Super Administrator.
+2. Company Owner.
+3. General Manager.
+4. Department Manager.
+5. Human Resource Manager.
+6. Finance Manager.
+7. Accountant.
+8. Inventory Manager.
+9. Warehouse Manager.
+10. Procurement Officer.
+11. Sales Manager.
+12. Security Supervisor.
+13. Employee.
+14. Auditor.
+15. Viewer.
+
+Allow custom roles and permissions.
+
+---
+
+# PART 3: MASTER DASHBOARD
+
+Create a real centralized dashboard displaying all company operations.
+
+Display:
+- Total employees.
+- Active employees.
+- Attendance today.
+- Absent employees.
+- Employees on leave.
+- Monthly payroll.
+- Total company expenses.
+- Total revenue.
+- Total profit.
+- Total inventory value.
+- Low-stock products.
+- Pending purchase orders.
+- Materials received.
+- Materials issued.
+- Sales invoices.
+- Outstanding payments.
+- Pending approvals.
+- Unread messages.
+- Recent notifications.
+
+Include:
+- Revenue charts.
+- Expense charts.
+- Payroll charts.
+- Inventory movement charts.
+- Attendance charts.
+- Department performance.
+- Monthly and yearly reports.
+
+Dashboard data must come from actual database records.
+
+Allow date filtering, department filtering and exporting.
+
+---
+
+# PART 4: HUMAN RESOURCE MANAGEMENT
+
+Build a complete employee management system.
+
+### Employee registration
+
+Fields:
+- Employee ID.
+- Full name.
+- Photograph.
+- Gender.
+- Date of birth.
+- Phone number.
+- Email.
+- Address.
+- Emergency contact.
+- Department.
+- Job title.
+- Employment type.
+- Employment start date.
+- Contract expiry date.
+- Basic salary.
+- Bank information with restricted access.
+- Educational qualifications.
+- Work experience.
+- Identification documents.
+- Emergency contact information.
+- Employment status.
+
+Generate unique employee IDs automatically.
+
+### Additional features
+
+- Employee profile.
+- Employee documents.
+- Employee history.
+- Promotions.
+- Transfers.
+- Disciplinary records.
+- Performance evaluations.
+- Contract management.
+- Employee termination.
+- Resignation records.
+- Employee ID card generator.
+- QR-code staff identification.
+- Printable employee directory.
+
+---
+add the secretary department  and Add the Employee letters
+Employment contracts
+Salary certificates
+Warning letters
+Material issue vouchers
+Goods receiving notes
+Stock transfer forms
+Maintenances form 
+time tricking attendances  from and add all this company  form and 
+add document or letters language exchange Amharic to English to chinese language to afaan oromiffa
+
+# PART 5: ATTENDANCE AND TIME MANAGEMENT
+
+Create a complete attendance management system.
+
+Features:
+- Daily attendance.
+- Check-in.
+- Check-out.
+- Late arrival.
+- Early departure.
+- Overtime.
+- Absence.
+- Leave tracking.
+- Shift scheduling.
+- Department attendance.
+- Monthly attendance summaries.
+
+Support integration with Hikvision and ZKTeco attendance devices through supported APIs, SDKs or export/import interfaces.
+
+Allow:
+- Manual attendance registration.
+- CSV/Excel attendance import.
+- Device attendance synchronization.
+- Attendance correction requests.
+- Manager approval.
+- Attendance reports.
+
+Do not use simulated biometric authentication. Real device integrations must be configured and tested.
+
+---
+
+# PART 6: LEAVE MANAGEMENT
+
+Include:
+- Annual leave.
+- Sick leave.
+- Emergency leave.
+- Maternity leave.
+- Unpaid leave.
+- Other customizable leave categories.
+
+Features:
+- Leave application.
+- Manager approval.
+- Leave balance.
+- Leave calendar.
+- Leave history.
+- Department leave reports.
+- Notifications for approvals and rejections.
+
+---
+
+# PART 7: PAYROLL AND SALARY MANAGEMENT
+
+Integrate the existing Seven Sunday Payroll Management System.
+
+Features:
+- Monthly payroll.
+- Basic salary.
+- Allowances.
+- Overtime calculations.
+- Bonuses.
+- Incentives.
+- Deductions.
+- Tax configuration.
+- Pension configuration.
+- Loans and advances.
+- Salary adjustments.
+- Payroll approval.
+- Payroll history.
+- Payslip generation.
+- Payroll exports.
+
+Allow the company to configure applicable Ethiopian payroll tax and pension rules, effective dates and calculation parameters.
+
+Do not hardcode tax rates that may change.
+
+### Salary processing
+
+1. HR verifies employee records.
+2. Attendance information is collected.
+3. Payroll calculates salaries.
+4. Finance reviews payroll.
+5. Authorized management approves payroll.
+6. Payslips are generated.
+7. Payment records are registered.
+8. Payroll reports are archived.
+
+Include:
+- Individual payslips.
+- Bulk payslips.
+- PDF export.
+- Excel export.
+- Monthly payroll summary.
+- Department salary summary.
+- Bonus calculator.
+- Salary payment history.
+
+---
+
+# PART 8: INVENTORY AND STOCK MANAGEMENT
+
+Integrate the existing Seven Sunday Inventory Pro application.
+
+Features:
+- Product registration.
+- Product categories.
+- Item codes.
+- Barcode generation.
+- QR-code generation.
+- Stock quantity.
+- Units of measurement.
+- Purchase price.
+- Selling price.
+- Stock valuation.
+- Product photographs.
+- Suppliers.
+- Warehouses.
+- Multiple storage locations.
+- Stock receiving.
+- Stock dispatch.
+- Stock transfers.
+- Stock adjustments.
+- Returns.
+- Damaged goods.
+- Expired goods.
+- Low-stock notifications.
+- Stock history.
+- Physical stock counting.
+
+### Goods receiving
+
+Capture:
+- GRN number.
+- Item number.
+- Item name.
+- Quantity received.
+- Sender name.
+- Received person.
+- Driver name.
+- Vehicle plate number.
+- Supplier.
+- Date and time.
+- Warehouse.
+- Product condition.
+- Signature.
+- Supporting documents.
+
+### Goods issuing
+
+Capture:
+- GIN number.
+- Item.
+- Quantity.
+- Receiving person.
+- Department.
+- Destination.
+- Vehicle registration.
+- Approved by.
+- Issued by.
+- Signature.
+- Date.
+
+Automatically update stock balances.
+
+Never allow unauthorized stock adjustments.
+
+---
+
+# PART 9: MATERIAL AND WAREHOUSE MANAGEMENT
+
+Integrate the existing Seven Sunday Material & Audit Management System.
+
+Features:
+- Material registration.
+- Material categories.
+- Raw materials.
+- Finished products.
+- Construction materials.
+- Office supplies.
+- Production materials.
+- Warehouse management.
+- Material receiving.
+- Material issuing.
+- Material transfers.
+- Material requests.
+- Material return.
+- Material damage records.
+- Material reconciliation.
+- Material audit.
+- Warehouse stock reports.
+
+Include approval workflows for material requests.
+
+---
+
+# PART 10: PROCUREMENT AND PURCHASING
+
+Create a real complete purchasing system.
+
+Features:
+- Supplier registration.
+- Supplier contact information.
+- Supplier documents.
+- Purchase requisitions.
+- Purchase orders.
+- Supplier quotations.
+- Quotation comparison.
+- Purchase approvals.
+- Goods received notes.
+- Supplier invoices.
+- Payment tracking.
+- Purchase history.
+- Supplier performance.
+
+Automatically connect approved purchases with inventory and finance.
+
+---
+
+# PART 11: SALES AND CUSTOMER MANAGEMENT
+
+Create a sales management module.
+
+Features:
+- Customer registration.
+- Customer profiles.
+- Customer contact details.
+- Product catalog.
+- Quotations.
+- Sales orders.
+- Sales invoices.
+- Delivery notes.
+- Customer payments.
+- Outstanding balances.
+- Sales returns.
+- Discounts.
+- Sales reports.
+- Customer history.
+
+Generate unique document numbers.
+
+Connect sales to inventory and finance automatically.
+
+---
+
+# PART 12: FINANCE AND ACCOUNTING
+
+Build an integrated finance management system.
+
+Features:
+- Income management.
+- Expense management.
+- Cash management.
+- Bank accounts.
+- Petty cash.
+- Accounts payable.
+- Accounts receivable.
+- Customer balances.
+- Supplier balances.
+- Payment vouchers.
+- Receipt vouchers.
+- Bank reconciliation.
+- Financial transactions.
+- General ledger.
+- Chart of accounts.
+- Journal entries.
+- Trial balance.
+- Profit and loss statement.
+- Balance sheet.
+- Cash flow statement.
+- Budget management.
+- Financial audit reports.
+
+Use double-entry accounting.
+
+Every approved financial transaction must have appropriate accounting entries.
+
+Prevent duplicate transactions.
+
+Support ETB as the default currency, with configurable additional currencies.
+
+---
+
+# PART 13: OFFICIAL COMPANY DOCUMENT GENERATOR
+
+Integrate all supplied Seven Sunday official document templates.
+
+Generate editable and printable:
+
+1. Sales invoices.
+2. Payment receipts.
+3. Purchase orders.
+4. Delivery notes.
+5. Company reports.
+6. Payment vouchers.
+7. Receipt vouchers.
+8. Employee letters.
+9. Employment contracts.
+10. Salary certificates.
+11. Warning letters.
+12. Material issue vouchers.
+13. Goods receiving notes.
+14. Stock transfer forms.
+15. Audit reports.
+16. Quotation documents.
+17. Customer statements.
+18. Supplier statements.
+
+Requirements:
+- Original company logo.
+- Official company letterhead.
+- Company address and contact information.
+- Automatic document numbering.
+- Date generation.
+- Authorized signature fields.
+- Company stamp.
+- QR code verification.
+- PDF download.
+- Print functionality.
+- Editable templates.
+
+Never invent official company registration, TIN or tax details. Allow the administrator to enter verified information.
+
+---
+
+# PART 14: STAFF UNIFORM AND ASSET MANAGEMENT
+
+Create a staff uniform and company property management module.
+
+Manage:
+- Office uniforms.
+- Security uniforms.
+- Cleaner uniforms.
+- Construction and labor worker uniforms.
+- Safety helmets.
+- Safety boots.
+- Reflective jackets.
+- Gloves.
+- Protective equipment.
+- Staff ID cards.
+- Company bags.
+- Laptops.
+- Phones.
+- Company vehicles.
+- Office equipment.
+
+Record:
+- Item ID.
+- Item name.
+- Employee receiving the item.
+- Employee ID.
+- Date issued.
+- Quantity.
+- Item condition.
+- Expected return date.
+- Actual return date.
+- Signature.
+- Approval status.
+
+Track lost, damaged, returned and unreturned company property.
+
+---
+
+# PART 15: COMPANY VEHICLE AND EQUIPMENT MANAGEMENT
+
+Include:
+- Vehicle registration.
+- Vehicle plate number.
+- Vehicle assignment.
+- Driver details.
+- Fuel records.
+- Maintenance records.
+- Insurance expiry.
+- Inspection dates.
+- Mileage.
+- Repair expenses.
+- Equipment allocation.
+- Equipment servicing.
+- Vehicle usage reports.
+
+Send notifications for maintenance and document expiry.
+
+---
+
+# PART 16: COMMUNICATION AND INTERNAL CHAT
+
+Create a secure internal communication platform.
+
+Features:
+- Employee-to-employee messaging.
+- Group chats.
+- Department channels.
+- Manager announcements.
+- File sharing.
+- Image sharing.
+- Document sharing.
+- Message search.
+- Read receipts.
+- Unread message counter.
+- Online status.
+- Message notifications.
+- Message history.
+
+Support real-time communication through WebSockets.
+
+Messages must synchronize across authorized devices.
+
+---
+
+# PART 17: NOTIFICATIONS AND APPROVALS
+
+Build a centralized notification center.
+
+Notifications for:
+- New employee registration.
+- Leave requests.
+- Leave approvals.
+- Payroll approval.
+- Salary payment.
+- Low inventory.
+- Stock receiving.
+- Stock issuing.
+- Purchase approvals.
+- Sales orders.
+- Customer payments.
+- Supplier payments.
+- Material requests.
+- Audit findings.
+- Vehicle maintenance.
+- Contract expiry.
+- Important company announcements.
+
+Support:
+- In-app notifications.
+- Email notifications.
+- Browser notifications.
+- Push notifications where supported.
+
+Allow users to manage notification preferences.
+
+Create a centralized approval workflow with approval history and timestamps.
+
+---
+
+# PART 18: EMAIL AND COMMUNICATION MANAGEMENT
+
+Implement company email notifications.
+
+Allow administrators to configure:
+- SMTP server.
+- Sender email.
+- Sender name.
+- Email credentials stored securely.
+- Email templates.
+- Email notification preferences.
+
+Send emails for:
+- Password resets.
+- Account creation.
+- Payroll approvals.
+- Leave approvals.
+- Purchase approvals.
+- Invoice notifications.
+- Payment confirmations.
+- Important announcements.
+
+Do not claim that emails were delivered unless delivery has been confirmed by the mail provider.do a real
+
+---
+
+---
+
+# PART 20: ONLINE AND OFFLINE FUNCTIONALITY
+
+This is one of the most important requirements.
+
+Build the application using an offline-first architecture.
+
+### Online mode
+
+When connected to the internet:
+- Connect to the central backend.
+- Read and write central database records.
+- Synchronize employee records.
+- Synchronize stock.
+- Synchronize payroll.
+- Synchronize finance.
+- Synchronize documents.
+- Synchronize notifications.
+- Synchronize messages.
+
+### Offline mode
+
+When the internet is unavailable:
+- Open the application.
+- Log in using securely provisioned offline credentials.
+- Access permitted locally cached information.
+- Register attendance where authorized.
+- Record goods received.
+- Record goods issued.
+- Register inventory changes.
+- Create permitted documents.
+- Save offline transactions.
+- View locally available reports.
+- Queue changes for synchronization.
+- used all funcation of the application
+
+### Synchronization engine
+
+Implement:
+- IndexedDB local database.
+- Background synchronization.
+- Pending transaction queue.
+- Unique transaction IDs.
+- Conflict detection.
+- Duplicate prevention.
+- Retry mechanism.
+- Synchronization status.
+- Failed synchronization reports.
+- Manual synchronization button.
+- Last synchronization timestamp.
+
+Never silently overwrite conflicting records.
+
+For financial, payroll and inventory records, use explicit conflict resolution and authorized approval.
+
+Important: Offline changes on different devices cannot automatically synchronize with each other while disconnected. 
+
+Sensitive information, especially payroll and banking records, must not be available offline unless specifically authorized and securely protected.
+
+---
+
+# PART 21: SECURITY AND AUDIT
+
+Implement professional enterprise security.
+
+Requirements:
+- Secure authentication.
+- Password hashing.
+- Role-based access control.
+- Two-factor authentication option.
+- Session management.
+- Device management.
+- Login history.
+- HTTPS.
+- Database access control.
+- Input validation.
+- Protection against SQL injection.
+- CSRF protection.
+- XSS protection.
+- Rate limiting.
+- Secure file uploads.
+- Encrypted backups.
+- Audit logs.
+
+Audit logs must record:
+- User.
+- Date and time.
+- Action.
+- Module.
+- Previous value where applicable.
+- New value where applicable.
+- Device information.
+- Approval history.
+
+Users must not be able to edit or delete audit records.
+
+Create configurable data retention and backup policies.
+
+---
+
+# PART 22: REPORTS AND EXPORTS
+
+Provide reports for every department.
+
+Report filters:
+- Daily.
+- Weekly.
+- Monthly.
+- Quarterly.
+- Yearly.
+- Custom dates.
+- Employee.
+- Department.
+- Warehouse.
+- Product.
+- Supplier.
+- Customer.
+
+Export:
+- PDF.
+- Excel.
+- CSV.
+- Printable documents.
+
+All reports must use real database information.
+
+---
+
+# PART 23: MULTILINGUAL SUPPORT
+
+Include:
+- English.
+- Amharic.
+- Additional languages through a translation system.
+
+Use proper Unicode support.
+
+Support Ethiopian calendar dates and Gregorian calendar dates.
+
+Allow administrators to select the default calendar and date format.
+
+Use ETB as the default currency.
+add unpermishan person to acsse other not seen the task
+
+---
+
+# PART 24: DATABASE ARCHITECTURE
+
+Use PostgreSQL as the primary centralized SQL database.
+
+Create normalized database models for:
+
+- Companies.
+- Branches.
+- Departments.
+- Employees.
+- Users.
+- Roles.
+- Permissions.
+- Attendance.
+- Leave.
+- Payroll.
+- Bonuses.
+- Deductions.
+- Products.
+- Categories.
+- Warehouses.
+- Suppliers.
+- Customers.
+- Stock transactions.
+- Material transactions.
+- Purchase orders.
+- Sales orders.
+- Invoices.
+- Receipts.
+- Payments.
+- Accounting entries.
+- Assets.
+- Vehicles.
+- Uniforms.
+- Documents.
+- Notifications.
+- Chat messages.
+- Approvals.
+- Audit logs.
+- Offline synchronization records.
+- Company settings.
+- scrteray .
+
+Use database migrations and foreign-key relationships.
+
+Use database transactions for important financial and inventory operations.
+
+Create indexes for frequently searched records.
+
+Never store the only copy of company data in browser localStorage.
+
+MongoDB may be added later if a clearly justified document-oriented workload requires it. Do not create duplicate sources of truth.
+
+---
+
+# PART 25: RECOMMENDED DEVELOPMENT TECHNOLOGY
+
+Use one consistent technology architecture.
+
+Frontend:
+- HTML5.
+- CSS3.
+- JavaScript.
+- TypeScript.
+- React.
+- Responsive component system.
+- Recharts.
+- Progressive Web App.
+
+Backend:
+- Python.
+- Django.
+- Django REST Framework.
+- WebSockets using Django Channels.
+
+Database:
+- PostgreSQL.
+- IndexedDB for offline storage.
+
+Desktop:
+- Electron.
+- Windows installer.
+- Local application service.
+
+Mobile:
+- Progressive Web App.
+- Android installation support.
+- iPhone installation support where browser capabilities permit.
+
+Infrastructure:
+- REST API.
+- WebSocket API.
+- Background synchronization.
+- Email service.
+- Push notification service.
+- Secure file storage.
+- Backup service.
+
+Do not unnecessarily combine Angular, React, Ruby on Rails, Java Spring Boot and Django in one application.
+
+The architecture must remain modular so another technology can be introduced later if necessary.
+
+---
+
+# PART 26: APPLICATION STRUCTURE
+
+Create the application with this navigation structure:
+
+1. Dashboard
+2. Company Administration
+3. Human Resources
+4. Secratery 
+5. Employees
+6. Attendance
+7. Leave Management
+8. Payroll
+9. Bonuses
+10. Inventory
+11. Products
+12. Warehouses
+13. Materials
+14. Material Requests
+15. Purchasing
+16. Suppliers
+17. Sales
+18. Customers
+19. Finance
+20. Accounting
+21. Payments
+22. Assets
+23. Uniform Management
+24. Vehicles
+25. Official Documents
+26. Reports
+27. Internal Chat
+28. Notifications
+29. Approvals
+30. Audit Management
+31. System Settings
+32. Backup and Restore
+33. Synchronization Center
+
+Each module must have its own functional interface but share the same local database and authentication system.
+
+---
+
+# PART 27: DATA MIGRATION AND EXISTING PROJECT INTEGRATION
+
+This is a mandatory part of the development.
+
+I am supplying these existing ZIP projects:
+
+1. seven-sunday-inventory-pro.zip
+2. Seven_sunday_project.zip
+3. seven-sunday-ethiopia---company-management-system.zip
+4. seven-sunday-ethiopia-–-payroll-management-system.zip
+5. Seven_Sunday_Official_Company_Documents_All_Formats(1).zip
+6. seven-sunday-material-&-audit-management-system.zip
+
+Before building:
+
+1. Extract and inspect every project.
+2. Analyze existing source code.
+3. Identify all working modules.
+4. Identify existing data structures.
+5. Identify duplicate functions.
+6. Identify shared functionality.
+7. Identify missing backend features.
+8. Identify existing offline capabilities.
+9. Identify existing document templates.
+10. Identify existing branding assets.
+
+Then create a unified architecture.
+
+### Migration requirements
+
+- Preserve existing useful functionality.
+- Preserve original company logo.
+- Preserve official document templates.
+- Preserve employee data structures.
+- Preserve payroll calculation logic after verification.
+- Preserve inventory and material management functions.
+- Preserve barcode and QR functionality.
+- Preserve Ethiopian calendar functionality.
+- Preserve existing reports.
+- Preserve desktop installation capabilities where useful.
+
+Create migration scripts to transfer existing records into the new PostgreSQL database.
+
+Never silently delete old data.
+
+Create a migration preview, validation report and backup before importing.
+
+Do not simply copy six separate dashboards into one application. Build shared modules and shared business services.
+
+---
+
+# PART 28: INSTALLATION AND DEPLOYMENT
+
+Provide three deployment methods.
+
+### A. Online web application
+
+- Automatic backups.
+- Multi-user access.
+
+### B. Offline desktop application
+
+Create a Windows installer.
+
+Requirements:
+- .exe installer.
+- Desktop shortcut.
+- Company logo and application icon.
+- Local database.
+- Offline login.
+- Local backup.
+- Automatic updates when connected.
+
+### C. Mobile application
+
+Create an installable PWA.
+
+Support:
+- Android phones.
+- iPhones.
+- Tablets.
+- Desktop browsers.
+
+Use responsive design and device-specific layouts.
+
+---
+
+# PART 29: DEVELOPMENT QUALITY REQUIREMENTS
+
+Do not create fake buttons. do a real 
+
+Every button must perform its actual intended action.
+
+Every form must validate and save data.
+
+Every table must support searching, filtering and sorting where appropriate.
+
+Every dashboard must display real database information.
+
+Every approval must have a permission check and an audit trail.
+
+Every important financial operation must have a transaction record.
+
+Every document must be printable and downloadable and add remove or closed buttons.
+
+Every module must be tested.
+
+Provide:
+- Unit tests.
+- API tests.
+- Integration tests.
+- Database tests.
+- Offline tests.
+- Synchronization tests.
+- Security tests.
+- Responsive tests.
+- Production build tests.
+
+Do not use demo records as real company data.
+
+Create clearly labeled optional demonstration data that can be disabled or removed safely.
+
+---
+
+# PART 30: FINAL DELIVERABLES
+
+Deliver a complete source-code project containing:
+
+1. Frontend source code.
+2. Backend source code.
+3. Database models.
+4. Database migrations.
+5. API documentation.
+6. Authentication system.
+7. Admin panel.
+8. Offline synchronization engine.
+9. Desktop Electron application.
+10. PWA mobile application.
+11. Company document templates.
+12. Email integration.
+13. Notification system.
+14. Internal chat.
+16. Backup and restore.
+17. Automated tests.
+18. Installation instructions.
+19. Deployment instructions.
+20. User manual.
+21. Administrator manual.
+22. Windows installer build instructions.
+
+Create a clean project structure with separate frontend, backend, desktop,local database, tests and documentation folders.
+
+Provide a README explaining exactly how to install, configure, run and build the application.
+
+---
+
+# FINAL DEVELOPMENT INSTRUCTION
+
+Build this as one unified enterprise platform for Seven Sunday Manufacturing & Trading PLC.
+
+The application must be professional enough for real company operations.
+
+Do not stop after creating the login page or dashboard.
+
+Do not provide only frontend mockups.
+
+Do not remove working features from my existing uploaded projects.
+
+Do not invent company information.
+
+Do not claim offline synchronization works until it has been tested.
+
+Develop the project in manageable phases, but keep one shared architecture and local database.
+
+First inspect all six supplied ZIP projects, prepare a complete integration and migration plan, and show the proposed final application structure.
+
+Then develop and test the unified application module by module.
+
+**The final objective is to make Seven Sunday Ethiopia operate its entire company through one professional, secure, installable, online/offline corporate management platform.**
+
+Important recommendation about your existing projects
+Your Inventory Pro already uses React, TypeScript and IndexedDB through Dexie. Some of your other projects use browser localStorage, and the desktop project uses Electron.
+
+That means the biggest technical task is not designing a new dashboard: it is migrating the separate data systems into a shared backend without losing existing records.
+
+
+
+
+
+
+Prompt
+build this full management system for real-time.
+
+
+
+
+

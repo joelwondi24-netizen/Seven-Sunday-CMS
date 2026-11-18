@@ -1,0 +1,6 @@
+{
+  "name": "Seven Sunday Ethiopia ERP",
+  "description": "Unified real-time online and offline corporate management platform for Seven Sunday Manufacturing & Trading PLC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
